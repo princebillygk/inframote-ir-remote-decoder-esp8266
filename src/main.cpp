@@ -64,12 +64,17 @@ void setup() {
     delay(10);
   }
 
-  display.drawRect(48, 38, 72, 5, 1);
+  // display.drawRect(48, 38, 72, 5, 1);
+  // display.display();
+
+  // display.drawLine(50, 40, 117, 40, 1);
+  // display.display();
+
+  display.drawRoundRect(48, 38, 72, 7, 20, 1);
   display.display();
 
-  display.drawLine(50, 40, 117, 40, 1);
+  display.fillRoundRect(50, 40, 68, 3, 20, 1);
   display.display();
-
 
   // // test run
   // display.clearDisplay();
