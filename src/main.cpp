@@ -2,6 +2,8 @@
 #include<Wire.h>
 #include<Adafruit_SSD1306.h>
 
+#include <Fonts/Picopixel.h>
+
 // OLED Specifications ---
 #define OLED_ADDR 0x3C
 #define OLED_RST 4
@@ -48,6 +50,26 @@ void setup() {
     display.drawBitmap(x, 6, logo_bitmap, LOGO_W, LOGO_H, 1 );
     display.display();
   }
+
+  display.setTextWrap(false);
+  display.setTextColor(1);
+  display.setFont(&Picopixel);
+  display.setTextSize(2);
+
+  display.setCursor(48, 30);
+  char brandName[][2] = {"I", "N", "F", "R", "A", "M", "O", "T", "E"};
+  for (auto c: brandName) {
+    display.print(c);
+    display.display();
+    delay(10);
+  }
+
+  display.drawRect(48, 38, 72, 5, 1);
+  display.display();
+
+  display.drawLine(50, 40, 117, 40, 1);
+  display.display();
+
 
   // // test run
   // display.clearDisplay();
