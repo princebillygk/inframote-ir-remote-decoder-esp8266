@@ -27,6 +27,11 @@ void setup() {
   }
 
   loadSplashScreen(&display, 1, 0);
+  delay(1000);
+
+  // Trun off screen
+  display.clearDisplay();
+  display.display();
 }
 
 void loop() {
