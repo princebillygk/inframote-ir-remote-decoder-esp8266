@@ -70,11 +70,17 @@ void setup() {
   // display.drawLine(50, 40, 117, 40, 1);
   // display.display();
 
-  display.drawRoundRect(48, 38, 72, 7, 20, 1);
+  display.drawRoundRect(48, 38, 72, 9, 20, 1);
   display.display();
 
-  display.fillRoundRect(50, 40, 68, 3, 20, 1);
-  display.display();
+  for (int load = 0, cursorX= 50; load <= 22; cursorX+=3, load++){
+    display.fillRoundRect(cursorX, 40, 2, 5, 20, 1);
+    display.display();
+    delay(50);
+  }
+
+  // display.fillRoundRect(50, 40, 68, 3, 20, 1);
+  // display.display();
 
   // // test run
   // display.clearDisplay();
