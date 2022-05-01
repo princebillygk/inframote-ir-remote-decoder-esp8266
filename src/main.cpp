@@ -10,6 +10,9 @@
 #define OLED_W 128
 #define OLED_H 64
 
+#define SPLASH_BG_COLOR 1
+#define SPLASH_COLOR 0
+
 // Initializations ---
 Adafruit_SSD1306 display(OLED_W, OLED_H, &Wire, OLED_RST);
 
@@ -45,14 +48,16 @@ void setup() {
     while(1);
   }
 
+
   for (int x = 44; x >= 4; x-=4) {
     display.clearDisplay();
-    display.drawBitmap(x, 6, logo_bitmap, LOGO_W, LOGO_H, 1 );
+    display.fillScreen(SPLASH_BG_COLOR);
+    display.drawBitmap(x, 6, logo_bitmap, LOGO_W, LOGO_H, SPLASH_COLOR);
     display.display();
   }
 
   display.setTextWrap(false);
-  display.setTextColor(1);
+  display.setTextColor(SPLASH_COLOR);
   display.setFont(&Picopixel);
   display.setTextSize(2);
 
@@ -64,27 +69,27 @@ void setup() {
     delay(10);
   }
 
-  // display.drawRect(48, 38, 72, 5, 1);
+  // display.drawRect(48, 38, 72, 5, SPLASH_COLOR);
   // display.display();
 
-  // display.drawLine(50, 40, 117, 40, 1);
+  // display.drawLine(50, 40, 117, 40, SPLASH_COLOR);
   // display.display();
 
-  display.drawRoundRect(48, 38, 72, 9, 20, 1);
+  display.drawRoundRect(48, 38, 72, 9, 20, SPLASH_COLOR);
   display.display();
 
   for (int load = 0, cursorX= 50; load <= 22; cursorX+=3, load++){
-    display.fillRoundRect(cursorX, 40, 2, 5, 20, 1);
+    display.fillRoundRect(cursorX, 40, 2, 5, 20, SPLASH_COLOR);
     display.display();
     delay(50);
   }
 
-  // display.fillRoundRect(50, 40, 68, 3, 20, 1);
+  // display.fillRoundRect(50, 40, 68, 3, 20, SPLASH_COLOR);
   // display.display();
 
   // // test run
   // display.clearDisplay();
-  // display.drawCircle(62, 31, 20, 1);
+  // display.drawCircle(62, 31, 20, SPLASH_COLOR);
   // display.display();
 }
 
