@@ -9,12 +9,16 @@
 #include <Wire.h>
 
 #include "splash.h"
+#include "melody.h"
 
 // OLED Specifications ---
 #define OLED_ADDR 0x3C
 #define OLED_RST 4
 #define OLED_W 128
 #define OLED_H 64
+
+// Piezo Buzzer Specification
+#define PIEZO_PIN 12
 
 // Initializations ---
 Adafruit_SSD1306 display(OLED_W, OLED_H, &Wire, OLED_RST);
@@ -26,6 +30,8 @@ void setup() {
     while (1);
   }
 
+  
+  melody::intro(PIEZO_PIN);
   loadSplashScreen(&display, 1, 0);
   delay(1000);
 
