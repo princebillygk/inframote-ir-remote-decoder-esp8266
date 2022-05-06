@@ -30,7 +30,8 @@ void setup() {
     while (1);
   }
 
-  loadSplashScreen(&display, 1, 0);
+  loadAnimatedSplashScreen(&display, 1, 0);
+  loadWelcomeText(&display, 1, 0);
   melody::intro(PIEZO_PIN);
 
   // Turn off screen

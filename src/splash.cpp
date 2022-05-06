@@ -32,7 +32,7 @@ const unsigned char logo_bitmap[] PROGMEM = {
 
 // Arduino codes ---------------
 
-void loadSplashScreen(Adafruit_SSD1306* display, uint16_t color,
+void loadAnimatedSplashScreen(Adafruit_SSD1306* display, uint16_t color,
                       uint16_t bgColor) {
   // Moving Logo from middle to left
   for (int x = 44; x >= 4; x -= 4) {
@@ -69,3 +69,18 @@ void loadSplashScreen(Adafruit_SSD1306* display, uint16_t color,
     delay(50);
   }
 }
+
+void loadWelcomeText(Adafruit_SSD1306* display, uint16_t color,
+                      uint16_t bgColor) {
+  display->clearDisplay();
+  display->setCursor(10, 35);
+  display->setTextWrap(false);
+  display->setFont(&Picopixel);
+  display->setTextSize(3);
+  display->setTextColor(color);
+  display->fillScreen(bgColor);
+  display->print("INFRAMOTE");
+  display->display();
+}
+
+

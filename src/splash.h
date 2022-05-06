@@ -15,6 +15,7 @@
             Adafruit_GFX library with some modification
     
 */
-void loadSplashScreen(Adafruit_SSD1306* display, uint16_t color, uint16_t bgColor);
+void loadAnimatedSplashScreen(Adafruit_SSD1306* display, uint16_t color, uint16_t bgColor);
+void loadWelcomeText(Adafruit_SSD1306* display, uint16_t color, uint16_t bgColor);
 
 #endif
