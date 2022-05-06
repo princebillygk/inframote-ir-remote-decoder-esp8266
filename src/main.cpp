@@ -8,6 +8,10 @@
 #include <Arduino.h>
 #include <Wire.h>
 
+#include<pt.h>
+
+
+
 #include "splash.h"
 #include "melody.h"
 
@@ -23,6 +27,7 @@
 // Initializations ---
 Adafruit_SSD1306 display(OLED_W, OLED_H, &Wire, OLED_RST);
 
+
 void setup() {
   Serial.begin(9600);
   if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDR, OLED_RST)) {
@@ -30,12 +35,11 @@ void setup() {
     while (1);
   }
 
-  
   melody::intro(PIEZO_PIN);
   loadSplashScreen(&display, 1, 0);
   delay(1000);
 
-  // Trun off screen
+  // Turn off screen
   display.clearDisplay();
   display.display();
 }
