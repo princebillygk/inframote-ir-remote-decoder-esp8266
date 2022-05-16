@@ -8,6 +8,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 
+#include "check.h"
 #include "splash.h"
 #include "melody.h"
 
@@ -24,6 +25,9 @@
 Adafruit_SSD1306 display(OLED_W, OLED_H, &Wire, OLED_RST);
 
 void setup() {
+/*/
+checkProgrammer();
+//*/
   Serial.begin(9600);
   if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDR, OLED_RST)) {
     Serial.println("Failed to communicate with SSD1306 Display");
@@ -37,8 +41,8 @@ void setup() {
   // Turn off screen
   display.clearDisplay();
   display.display();
+  //*/
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 }
