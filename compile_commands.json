@@ -1,0 +1,207 @@
+[
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\CDC.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\CDC.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\CDC.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\HardwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\HardwareSerial.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\HardwareSerial.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\HardwareSerial0.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\HardwareSerial0.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\HardwareSerial0.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\HardwareSerial1.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\HardwareSerial1.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\HardwareSerial1.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\HardwareSerial2.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\HardwareSerial2.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\HardwareSerial2.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\HardwareSerial3.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\HardwareSerial3.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\HardwareSerial3.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\IPAddress.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\IPAddress.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\IPAddress.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\PluggableUSB.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\PluggableUSB.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\PluggableUSB.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\Print.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\Print.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\Print.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\Stream.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\Stream.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\Stream.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\Tone.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\Tone.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\Tone.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\USBCore.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\USBCore.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\USBCore.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\release\\FrameworkArduino\\WInterrupts.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\WInterrupts.c",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\WInterrupts.c"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\WMath.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\WMath.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\WMath.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\WString.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\WString.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\WString.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\abi.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\abi.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\abi.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\release\\FrameworkArduino\\hooks.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\hooks.c",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\hooks.c"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\main.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\main.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\new.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\new.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\new.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\release\\FrameworkArduino\\wiring.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring.c",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring.c"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\release\\FrameworkArduino\\wiring_analog.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_analog.c",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_analog.c"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\release\\FrameworkArduino\\wiring_digital.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_digital.c",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_digital.c"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\FrameworkArduino\\wiring_extras.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_extras.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_extras.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-as.exe -x assembler-with-cpp -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -o .pio\\build\\release\\FrameworkArduino\\wiring_pulse.S.o C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_pulse.S",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_pulse.S"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\release\\FrameworkArduino\\wiring_pulse.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_pulse.c",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_pulse.c"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\release\\FrameworkArduino\\wiring_shift.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_shift.c",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore\\wiring_shift.c"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\lib6c9\\Wire\\Wire.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src\\Wire.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src\\Wire.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\release\\lib6c9\\Wire\\utility\\twi.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src\\utility\\twi.c",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src\\utility\\twi.c"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\libbfc\\SPI\\SPI.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src\\SPI.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "C:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src\\SPI.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\release\\libcfa\\Adafruit BusIO\\Adafruit_BusIO_Register.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\release\\Adafruit BusIO\" -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard \".pio\\libdeps\\release\\Adafruit BusIO\\Adafruit_BusIO_Register.cpp\"",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\.pio\\libdeps\\release\\Adafruit BusIO\\Adafruit_BusIO_Register.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\release\\libcfa\\Adafruit BusIO\\Adafruit_I2CDevice.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\release\\Adafruit BusIO\" -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard \".pio\\libdeps\\release\\Adafruit BusIO\\Adafruit_I2CDevice.cpp\"",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\.pio\\libdeps\\release\\Adafruit BusIO\\Adafruit_I2CDevice.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\release\\libcfa\\Adafruit BusIO\\Adafruit_SPIDevice.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\release\\Adafruit BusIO\" -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard \".pio\\libdeps\\release\\Adafruit BusIO\\Adafruit_SPIDevice.cpp\"",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\.pio\\libdeps\\release\\Adafruit BusIO\\Adafruit_SPIDevice.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\release\\lib220\\Adafruit GFX Library\\Adafruit_GFX.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\release\\Adafruit GFX Library\" \"-I.pio\\libdeps\\release\\Adafruit BusIO\" -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard \".pio\\libdeps\\release\\Adafruit GFX Library\\Adafruit_GFX.cpp\"",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\.pio\\libdeps\\release\\Adafruit GFX Library\\Adafruit_GFX.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\release\\lib220\\Adafruit GFX Library\\Adafruit_GrayOLED.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\release\\Adafruit GFX Library\" \"-I.pio\\libdeps\\release\\Adafruit BusIO\" -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard \".pio\\libdeps\\release\\Adafruit GFX Library\\Adafruit_GrayOLED.cpp\"",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\.pio\\libdeps\\release\\Adafruit GFX Library\\Adafruit_GrayOLED.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\release\\lib220\\Adafruit GFX Library\\Adafruit_SPITFT.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\release\\Adafruit GFX Library\" \"-I.pio\\libdeps\\release\\Adafruit BusIO\" -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard \".pio\\libdeps\\release\\Adafruit GFX Library\\Adafruit_SPITFT.cpp\"",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\.pio\\libdeps\\release\\Adafruit GFX Library\\Adafruit_SPITFT.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o \".pio\\build\\release\\lib220\\Adafruit GFX Library\\glcdfont.c.o\" -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\release\\Adafruit GFX Library\" \"-I.pio\\libdeps\\release\\Adafruit BusIO\" -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard \".pio\\libdeps\\release\\Adafruit GFX Library\\glcdfont.c\"",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\.pio\\libdeps\\release\\Adafruit GFX Library\\glcdfont.c"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\release\\libd76\\Adafruit SSD1306\\Adafruit_SSD1306.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\release\\Adafruit SSD1306\" \"-I.pio\\libdeps\\release\\Adafruit GFX Library\" \"-I.pio\\libdeps\\release\\Adafruit BusIO\" -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard \".pio\\libdeps\\release\\Adafruit SSD1306\\Adafruit_SSD1306.cpp\"",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\.pio\\libdeps\\release\\Adafruit SSD1306\\Adafruit_SSD1306.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\lib96e\\Check\\check.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Ilib\\Check -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard lib\\Check\\check.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\lib\\Check\\check.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\src\\main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -Ilib\\Pitch -Ilib\\Check -I.pio\\libdeps\\release\\TaskScheduler\\src \"-I.pio\\libdeps\\release\\Adafruit SSD1306\" \"-I.pio\\libdeps\\release\\Adafruit GFX Library\" \"-I.pio\\libdeps\\release\\Adafruit BusIO\" -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard src\\main.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\src\\main.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\src\\melody.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -Ilib\\Pitch -Ilib\\Check -I.pio\\libdeps\\release\\TaskScheduler\\src \"-I.pio\\libdeps\\release\\Adafruit SSD1306\" \"-I.pio\\libdeps\\release\\Adafruit GFX Library\" \"-I.pio\\libdeps\\release\\Adafruit BusIO\" -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard src\\melody.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\src\\melody.cpp"
+    },
+    {
+        "command": "C:\\Users\\user\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\release\\src\\splash.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=60002 -DARDUINO_AVR_ATmega328P -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -Ilib\\Pitch -Ilib\\Check -I.pio\\libdeps\\release\\TaskScheduler\\src \"-I.pio\\libdeps\\release\\Adafruit SSD1306\" \"-I.pio\\libdeps\\release\\Adafruit GFX Library\" \"-I.pio\\libdeps\\release\\Adafruit BusIO\" -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\SPI\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\libraries\\Wire\\src -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\cores\\MiniCore -IC:\\Users\\user\\.platformio\\packages\\framework-arduino-avr-minicore\\variants\\standard src\\splash.cpp",
+        "directory": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder",
+        "file": "D:\\Projects\\Inframote\\InframoteIRRemoteDecoder\\src\\splash.cpp"
+    }
+]
