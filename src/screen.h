@@ -1,7 +1,9 @@
-#include<Adafruit_SSD1306.h>
+#include <Adafruit_SSD1306.h>
 
-#ifndef SCREENS_H
-#define SCREENS_H
+#ifndef SCREEN_H
+#define SCREEN_H
+
+namespace screen {
 
 /*!
         @brief      Loads wating screen for taking new input
@@ -11,14 +13,14 @@
                 Indicates the color of the splash screen text and objects
         @param      bgColor
                 Indicates the background color of splash screen
-        @param      inputNo
-                Indicates the current input number
+        @param      msg
+                What message to show in wating screen
 
         @note       This function will work with any kind of display using
                 Adafruit_GFX library with some modification
 */
-void loadWaitingScreen(Adafruit_SSD1306* display, uint16_t color,
-                      uint16_t bgColor, uint8_t inputNo);
+void loadWaitingScreen(Adafruit_SSD1306 *display, uint16_t color,
+                       uint16_t bgColor, char *msg);
 
 /*!
         @brief      Loads test screen for buttons
@@ -37,7 +39,10 @@ void loadWaitingScreen(Adafruit_SSD1306* display, uint16_t color,
         @note       This function will work with any kind of display using
                 Adafruit_GFX library with some modification
 */
-void loadTestScreen(Adafruit_SSD1306* display, uint16_t color,
-                      uint16_t bgColor, uint8_t inputNo, int protocol, uint16_t address, uint16_t command);
+void loadTestScreen(Adafruit_SSD1306 *display, uint16_t color, uint16_t bgColor,
+                    uint8_t inputNo, char *protocol, uint16_t address,
+                    uint16_t command);
+
+} // namespace screen
 
 #endif

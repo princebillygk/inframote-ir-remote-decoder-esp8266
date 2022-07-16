@@ -4,6 +4,9 @@ all:
 upload:
 	pio -f -c vim run --target upload
 
+start: upload
+	pio device monitor
+
 clean:
 	pio -f -c vim run --target clean
 
