@@ -40,6 +40,21 @@
 Adafruit_SSD1306 display(OLED_W, OLED_H, &Wire, OLED_RST);
 IRrecv irrecv(IR_RECEIVE_PIN);
 decode_results results;
+int keypadInput = 0;
+
+int getKeypadInput() {
+  keypadInput = analogRead(A0);
+  if (keypadInput >= 910 && keypadInput <= 915) {
+    return 1;
+  } else if (keypadInput >= 539 && keypadInput <=543) {
+    return 2;
+  } else if (keypadInput >= 100 && keypadInput <= 105) {
+    return 3;
+  } else if (keypadInput >= 1023 && keypadInput <= 1024) {
+    return 4;
+  }
+  return 0;
+}
 
 void setup() {
   // pin setup
@@ -88,6 +103,10 @@ void loop() {
                            decodeTypeStr(results.decode_type), results.address,
                            results.command);
     irrecv.resume();
+    delay(500);
   }
-  delay(500);
+  keypadInput = getKeypadInput();
+  if (keypadInput) {
+    Serial.println(keypadInput);
+  }
 }
