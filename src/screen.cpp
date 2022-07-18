@@ -3,10 +3,11 @@
 #include <screen.h>
 
 #include <Fonts/Org_01.h>
+#include <Fonts/Picopixel.h>
 
 using namespace screen;
 
-void screen::loadWaitingScreen(Adafruit_SSD1306 *display, uint16_t color,
+void screen::message(Adafruit_SSD1306 *display, uint16_t color,
                                uint16_t bgColor, char *msg) {
   display->clearDisplay();
   display->fillScreen(bgColor);

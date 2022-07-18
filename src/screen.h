@@ -3,7 +3,9 @@
 #ifndef SCREEN_H
 #define SCREEN_H
 
+
 namespace screen {
+
 
 /*!
         @brief      Loads wating screen for taking new input
@@ -19,7 +21,10 @@ namespace screen {
         @note       This function will work with any kind of display using
                 Adafruit_GFX library with some modification
 */
-void loadWaitingScreen(Adafruit_SSD1306 *display, uint16_t color,
+void home(Adafruit_SSD1306 *display, uint16_t color,
+                       uint16_t bgColor);
+
+void message(Adafruit_SSD1306 *display, uint16_t color,
                        uint16_t bgColor, char *msg);
 
 /*!
