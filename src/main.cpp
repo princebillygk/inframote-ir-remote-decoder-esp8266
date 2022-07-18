@@ -9,6 +9,7 @@
 #include <Arduino.h>
 #include <SPI.h>
 #include <Wire.h>
+#include <ViewManager.hpp>
 
 #include <IRHelper.h>
 #include <IRrecv.h>
@@ -22,7 +23,7 @@
 
 // OLED Specifications ---
 #define OLED_ADDR 0x3C
-#define OLED_RST -1
+#define OLED_RST_PIN -1
 #define OLED_W 128
 #define OLED_H 64
 
@@ -39,9 +40,10 @@
 
 // Buttons
 #define KEYPAD_PIN A0
+#define SERIAL_MONITOR_BAUD_RATE 74880
 
 // Initializations ---
-Adafruit_SSD1306 display(OLED_W, OLED_H, &Wire, OLED_RST);
+ViewManager viewManager(OLED_RST_PIN, OLED_ADDR, CONTENT_COLOR, BG_COLOR);
 IRrecv irrecv(IR_RECEIVE_PIN);
 IRsend irsend(IR_SEND_PIN);
 decode_results results;
@@ -61,7 +63,13 @@ int getKeypadInput() {
 }
 
 void setup() {
+  Serial.begin(SERIAL_MONITOR_BAUD_RATE);
+  // viewManager.home();
+  viewManager.wait("Waiting for IR Signal\nInput for Button 30");
+}
 
+void loop() {
+  delay(1000);
 }
 
 // void setup() {
