@@ -2,8 +2,9 @@
 #include <Fonts/Org_01.h>
 #include <Fonts/Picopixel.h>
 
-
+#include <IRutils.h>
 #include <ViewManager.hpp>
+
 
 ViewManager::ViewManager(int8_t oledRstPin, uint8_t oledI2cAddr,
                          uint16_t contentColor, uint16_t backgroundColor)
@@ -20,9 +21,18 @@ ViewManager::ViewManager(int8_t oledRstPin, uint8_t oledI2cAddr,
   }
 }
 
-void ViewManager::home() { home(&display, contentColor, backgroundColor); }
+void ViewManager::clear() { ViewManager::clear(&display, backgroundColor); }
+
+void ViewManager::clear(Adafruit_SSD1306 *display, uint16_t fillColor) {
+  display->clearDisplay();
+  display->fillScreen(fillColor);
+}
+
+void ViewManager::home() {
+  ViewManager::home(&display, contentColor, backgroundColor);
+}
 void ViewManager::home(uint16_t contentColor, uint16_t backgroundColor) {
-  home(&display, contentColor, backgroundColor);
+  ViewManager::home(&display, contentColor, backgroundColor);
 }
 
 void ViewManager::home(Adafruit_SSD1306 *display, uint16_t contentColor,
@@ -44,11 +54,11 @@ void ViewManager::home(Adafruit_SSD1306 *display, uint16_t contentColor,
 }
 
 void ViewManager::wait(char *msg) {
-  wait(&display, contentColor, backgroundColor, msg);
+  ViewManager::wait(&display, contentColor, backgroundColor, msg);
 }
 void ViewManager::wait(uint16_t contentColor, uint16_t backgroundColor,
                        char *msg) {
-  wait(&display, contentColor, backgroundColor, msg);
+  ViewManager::wait(&display, contentColor, backgroundColor, msg);
 }
 
 void ViewManager::wait(Adafruit_SSD1306 *display, uint16_t color,
@@ -64,6 +74,54 @@ void ViewManager::wait(Adafruit_SSD1306 *display, uint16_t color,
   display->setCursor(0, 6);
   display->print(msg);
   display->println("...");
+
+  display->display();
+}
+
+void ViewManager::singleOutput(char *decodeType, uint32_t addr, uint32_t cmd,
+                               uint64_t val) {
+  ViewManager::singleOutput(&display, contentColor, backgroundColor, decodeType,
+                            addr, cmd, val);
+}
+void ViewManager::singleOutput(uint16_t contentColor, uint16_t backgroundColor,
+                               char *decodeType, uint32_t addr, uint32_t cmd,
+                               uint64_t val) {
+  ViewManager::singleOutput(&display, contentColor, backgroundColor, decodeType,
+                            addr, cmd, val);
+}
+
+void ViewManager::singleOutput(Adafruit_SSD1306 *display, uint16_t contentColor,
+                               uint16_t backgroundColor, char *decodeType,
+                               uint32_t addr, uint32_t cmd, uint64_t val) {
+  ViewManager::clear(display, backgroundColor);
+
+  display->setFont(&Org_01);
+  display->setCursor(10, 10);
+  display->setTextWrap(true);
+  display->setTextSize(1);
+  display->setTextColor(contentColor);
+
+  display->println("Button: 1");
+  display->setCursor(10, display->getCursorY());
+  int16_t cy = display->getCursorY();
+  display->drawLine(0, cy, 128, cy, contentColor);
+  display->setCursor(10, cy + 10);
+
+  char str[128];
+  sprintf(str, "Protocol: %s", decodeType);
+  display->println(str);
+  display->setCursor(10, display->getCursorY());
+
+  sprintf(str, "Address: %X", addr);
+  display->println(str);
+  display->setCursor(10, display->getCursorY());
+
+  sprintf(str, "Command: %X", cmd);
+  display->println(str);
+  display->setCursor(10, display->getCursorY());
+
+  sprintf(str, "Value: %s\n", uint64ToString(val, HEX).c_str());
+  display->println(str);
 
   display->display();
 }

@@ -8,14 +8,16 @@
 #include <Adafruit_SSD1306.h>
 #include <Arduino.h>
 #include <SPI.h>
-#include <Wire.h>
 #include <ViewManager.hpp>
+#include <Wire.h>
+
 
 #include <IRHelper.h>
 #include <IRrecv.h>
-#include <IRsend.h>
 #include <IRremoteESP8266.h>
+#include <IRsend.h>
 #include <IRutils.h>
+
 
 #include "melody.h"
 #include "screen.h"
@@ -62,67 +64,50 @@ int getKeypadInput() {
   return 0;
 }
 
-void setup() {
-  Serial.begin(SERIAL_MONITOR_BAUD_RATE);
-  // viewManager.home();
-  viewManager.wait("Waiting for IR Signal\nInput for Button 30");
-}
-
-void loop() {
-  delay(1000);
-}
-
 // void setup() {
-//   // pin setup
-//   pinMode(IR_RECEIVE_PIN, INPUT);
-//   pinMode(PIEZO_PIN, OUTPUT);
-
-//   // Serial
-//   Serial.begin(74880);
-
-//   // IR modules
-//   irsend.begin();
-//   irrecv.enableIRIn();
-
-//   // Display
-//   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
-//     Serial.println("Failed to communicate with SSD1306 Display");
-//     while (true)
-//       ;
-//   }
-
-//   // Application
-//   loadAnimatedSplashScreen(&display, CONTENT_COLOR, BG_COLOR);
-//   loadWelcomeText(&display, 1, 0);
-//   melody::intro(PIEZO_PIN, 3);
-
-//   display.clearDisplay();
-//   display.display();
-
-//   while (!Serial) {
-//     delay(50);
-//   }
-
-//   char msg[64];
-//   sprintf(msg, "IRrecvDemo is now running and waiting for IR message on Pin %d",
-//           IR_RECEIVE_PIN);
-
-//   Serial.println(IR_RECEIVE_PIN);
-//   screen::showMessage(&display, CONTENT_COLOR, BG_COLOR, msg);
+//   Serial.begin(SERIAL_MONITOR_BAUD_RATE);
+//   // viewManager.home();
+//   viewManager.wait("Waiting for IR Signal\nInput for Button 30");
 // }
 
 // void loop() {
-//   if (irrecv.decode(&results)) {
-//     Serial.printf("Protocol %s\n", decodeTypeStr(results.decode_type));
-//     Serial.printf("Address %X\n", results.address);
-//     Serial.printf("Command %X\n", results.command);
-//     Serial.println("\n");
-//     screen::loadTestScreen(&display, CONTENT_COLOR, BG_COLOR, 1,
-//                            decodeTypeStr(results.decode_type), results.address,
-//                            results.command);
-//     irrecv.resume();
-//     delay(500);
-//     irsend.sendNEC(0x00FFE01FUL);
-//     delay(500);
-//   }
+//   delay(1000);
 // }
+
+void setup() {
+  // pin setup
+  pinMode(IR_RECEIVE_PIN, INPUT);
+  pinMode(PIEZO_PIN, OUTPUT);
+
+  // Serial
+  Serial.begin(74880);
+
+  // IR modules
+  irsend.begin();
+  irrecv.enableIRIn();
+}
+
+void loop() {
+  if (irrecv.decode(&results)) {
+    if (results.decode_type == UNKNOWN) {
+      Serial.println("Unknown Protocol");
+      Serial.printf("Address %X\n", results.address);
+      Serial.printf("Command %X\n", results.command);
+      Serial.println(results.value);
+      Serial.println(results.bits);
+    } else {
+      Serial.printf("Protocol %s\n", decodeTypeStr(results.decode_type));
+      viewManager.singleOutput(decodeTypeStr(results.decode_type),
+                                results.address, results.command,
+                                results.value);
+      Serial.printf("Address %X\n", results.address);
+      Serial.printf("Command %X\n", results.command);
+      serialPrintUint64(results.value, HEX);
+      Serial.println("\n");
+    }
+    irrecv.resume();
+    delay(1000);
+    // irsend.sendNEC(0x00FFE01FUL);
+    // delay(500);
+  }
+}

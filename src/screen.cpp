@@ -7,20 +7,6 @@
 
 using namespace screen;
 
-void screen::message(Adafruit_SSD1306 *display, uint16_t color,
-                               uint16_t bgColor, char *msg) {
-  display->clearDisplay();
-  display->fillScreen(bgColor);
-
-  display->setFont(&Org_01);
-  display->setCursor(10, 30);
-  display->setTextWrap(true);
-  display->setTextSize(1);
-  display->setTextColor(color);
-
-  display->println(msg);
-  display->display();
-}
 
 void screen::loadTestScreen(Adafruit_SSD1306 *display, uint16_t color,
                             uint16_t bgColor, uint8_t inputNo, char *protocol,
